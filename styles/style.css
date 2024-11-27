@@ -14,7 +14,7 @@
   }
   h1{
     text-align: center;
-    font-size: 4rem; /*1 rem es igual a 16 px si no lo modificamos y va a ir aumentando de 16 en 16   */ 
+    font-size: 4rem; /* sin modificacion 1 rem es igual a 16 px, aumenta de 16 en 16   */ 
     padding: 20px;
     border: 2px solid #000
   }
@@ -29,7 +29,7 @@
   /* .texto-custom{
     color: chartreuse;
   } */
-  /* Vamos a crear comentarios en CSS de esta manera  */
+  /* los comentarios en css se crean asi  */
   
   .texto-custom-dos{
     color: greenyellow;
