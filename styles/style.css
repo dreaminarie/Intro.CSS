@@ -76,3 +76,25 @@
     width: 500px;
     background-color: #8f2ba2;
   }
+
+  header {
+    width: 100%;
+    background-color: #444040;
+    padding: 20px 0;
+}
+
+.nav-item{
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.nav-item a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #3d3fc0;
+}
+
+.nav-item a:hover{
+  color: #8f2ba2;
+}
