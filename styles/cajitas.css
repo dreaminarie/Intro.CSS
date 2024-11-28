@@ -52,7 +52,7 @@
     background-color: rgb(164, 21, 86);
   
   }
-  .cajita::before{
+  .cajita:before{
     border-radius: 50%;
     content: '';
     width: 250px;
