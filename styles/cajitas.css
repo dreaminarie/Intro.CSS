@@ -32,6 +32,7 @@
   p{
     position: relative;
     z-index: 1;
+    color: #393737;
   }
   
   .boton-custom{

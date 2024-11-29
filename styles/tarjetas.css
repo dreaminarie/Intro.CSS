@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto", serif;
+  }
+  #tarjeta-uno{
+    background-color: #1E3932;
+  }
+  
+  #tarjeta-uno .contenedor-imagen{
+    width: 50%;
+    vertical-align: middle;
+  }
+  
+  #tarjeta-uno .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+  }
+  .contenedor-texto{
+    color: white;
+    text-align: center;
+    width: 364px;
+  }
+  
+  .contenedor-interno{
+    display: inline-block;
+  }
+  #tarjeta-dos{
+    background-color: #D50032;
+  }
+  
+  #tarjeta-dos .contenedor-imagen{
+    width: 50%;
+    vertical-align: middle;
+  }
+  
+  #tarjeta-dos .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+  }
+  .contenedor-texto{
+    color: white;
+    text-align: center;
+    width: 364px;
+  }
+  
+  .contenedor-interno{
+    display: inline-block;
+  }

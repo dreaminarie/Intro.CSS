@@ -12,6 +12,7 @@
     font-weight: normal;
     font-family:'Times New Roman', Times, serif
   }
+
   h1{
     text-align: center;
     font-size: 4rem; /* sin modificacion 1 rem es igual a 16 px, aumenta de 16 en 16   */ 
@@ -19,11 +20,16 @@
     border: 2px solid #000
   }
   
+  .main-content h1.texto-custom {
+    color: aquamarine;
+  }
+
   .texto-custom {
     color: red;
     background-color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
+    border-color: rgb(39, 131, 96);
   }
   
   /* .texto-custom{
@@ -36,11 +42,13 @@
     background-color: brown;
     font-style: oblique;
   }
+
   .espacioabajocustom{
     /* margin: 50px 30px  60px 40px; */
     margin: 50px 30px;
     padding: 20px  2rem;
   }
+
   span{
     margin-bottom: 400px;
   }
@@ -52,6 +60,7 @@
   .list-item{
     margin-left: 50px;
   }
+
   ul .list-item{
     background-color: wheat;
     border: 2px solid black
@@ -77,10 +86,9 @@
     background-color: #8f2ba2;
   }
 
-  header {
-    width: 100%;
-    background-color: #444040;
-    padding: 20px 0;
+.navegador{
+  padding: 20px;
+  background-color: antiquewhite;
 }
 
 .nav-item{
