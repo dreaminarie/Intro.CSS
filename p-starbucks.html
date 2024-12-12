@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Starbucks</title>
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2699/PNG/512/starbucks_logo_icon_170704.png">
+    <script src="https://kit.fontawesome.com/d8df87160d.js" crossorigin="anonymous"></script>
+    <script src="./sbux.js" defer></script>
+    <link rel="stylesheet" href="./styles/header-starbucks.css">
+</head>
+<body>
+    <header class="region region-header">
+        <section class="contenedor">
+            <section class="l-region region--header-1">
+                <figure class="bloque--marca">
+                    <a href="/" class="logo">Logotipo</a>
+                </figure>
+                <label for="menu-toggle" class="menu-hamburguesa">
+                    <span class="icon-menu">☰</span>
+                    <span class="icon-close" style="display: none;">✖</span>
+                </label>
+                <input type="checkbox" id="menu-toggle" style="display: none;">
+                <!-- Barra lateral -->
+                <nav class="sidebar">
+                    <ul>
+                        <li><a href="/menu">Menu</a></li>
+                        <li><a href="https://rewards.starbucks.mx" target="_blank">Rewards</a></li>
+                        <li><a href="/stores">Localizar Tienda</a></li>
+                        <li><a href="https://rewards.starbucks.mx/login">Ingresar</a></li>
+                        <li><a href="https://rewards.starbucks.mx/register">Únete</a></li>
+                    </ul>
+                </nav>                
+                <nav class="menu-principal">
+                    <section class="bloque-menu menu-izquierda">
+                        <ul>
+                            <li><a href="/menu" class="item-menu">Menu</a></li>
+                            <li><a href="https://rewards.starbucks.mx" target="_blank" class="item-menu">Rewards</a></li>
+                        </ul>
+                    </section>
+                    <section class="bloque-menu menu-derecha">
+                        <ul class="menu-iniciar-registro">
+                            <li><a href="/stores" class="localizar-tienda boton">Localizar Tienda</a></li>
+                            <li><a href="https://rewards.starbucks.mx/login" class="menu-iniciar boton">Ingresar</a></li>
+                            <li><a href="https://rewards.starbucks.mx/register" class="menu-registrarse boton">Únete</a></li>
+                        </ul>
+                    </section>
+                </nav>
+            </section>
+        </section>
+    </header>
+</body>
+</html>
