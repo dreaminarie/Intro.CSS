@@ -6,8 +6,7 @@ main{
 
 .fila{
     display: block;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
 
@@ -158,4 +157,31 @@ p{
 
 .fondo-azul-cielo{
     background-color: #98CDE4;
+}
+
+/* Consulta de medios para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .bloque-2-columna .contenido-bloque {
+        grid-template-columns: 1fr; /* Una sola columna para apilar contenido */
+    }
+
+    .bloque-2-columna .imagen-bloque {
+        grid-column: 1; /* Imagen ocupa toda la fila */
+        grid-row: 1;
+    }
+
+    .bloque-2-columna .bloque-texto {
+        grid-column: 1; /* Texto debajo de la imagen */
+        grid-row: 2;
+    }
+
+    .bloque-banner {
+        margin-bottom: 20px; /* Espaciado entre bloques */
+        width: 100%;
+        height: auto;
+    }
+
+    .envoltorio-bloque-banner {
+        grid-template-columns: 1fr; /* Diseño de una columna */
+    }
 }
