@@ -95,3 +95,9 @@ document.addEventListener('DOMContentLoaded', function () {
     manejarAcordeon();
     window.addEventListener('resize', manejarAcordeon);
 });
+
+const closeButton = document.getElementById('closeBannerButton')
+const cookieBanner = document.getElementById('cookieBanner')
+closeButton.addEventListener('click', () => {
+    cookieBanner.classList.add('invisible')
+})
