@@ -44,6 +44,10 @@
     font-size: 16px;
 }
 
+ul.display-xs li a:hover {
+    color: black;
+}
+
 .region-prefooter .bloque-menu ul li :first-child{
     padding-top: 0;
 }
@@ -156,6 +160,10 @@ ul.menu-legal li a::after{
     right: -15px;
     top: -2px
 }
+
+ul.menu-legal li a.item-menu:hover {
+    color: #848280;
+} 
 
 ul.menu-legal li:last-child a::after {
     content: none;

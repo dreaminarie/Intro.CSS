@@ -14,9 +14,8 @@ body{
     margin: 0;
 }
 
-/* General */
 .sidebar {
-    display: none; /* Por defecto, la barra lateral no debe mostrarse */
+    display: none; 
     position: fixed;
     top: 0;
     right: 0;
@@ -25,25 +24,25 @@ body{
     background-color: #fff;
     box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    transform: translateX(100%); /* Inicialmente oculta */
+    transform: translateX(100%); 
     transition: transform 0.3s ease;
     z-index: 10;
 }   
 
 .menu-hamburguesa {
-    display: none; /* Ocultamos el botón en pantallas grandes */
+    display: none; 
     font-size: 24px;
     cursor: pointer;
     position: relative;
-    z-index: 15; /* Para que esté encima de otros elementos */
+    z-index: 15; 
 }
 
 #menu-toggle {
-    display: none; /* Ocultamos el checkbox */
+    display: none; 
 }
 
 #menu-toggle:checked ~ .sidebar {
-    display: block; /* Mostramos la barra lateral cuando el checkbox está activo */
+    display: block; 
     transform: translateX(0);
 }
 
@@ -186,46 +185,42 @@ a.logo{
     color: #fff;
 }
 
-/* Pantallas pequeñas */
-
-/* Ajuste adicional para dispositivos muy pequeños */
 @media screen and (max-width: 375px) {
     .menu-hamburguesa {
         display: block;
         position: absolute;
-        right: 15px; /* Asegura que no se sobreponga con otros elementos */
-        top: 50%;   /* Ajusta la altura para evitar colisiones */
-        font-size: 24px; /* Tamaño adecuado para pantallas pequeñas */
-        z-index: 11; /* Asegura que esté sobre la barra lateral */
-        transform: translateY(-50%); /* Ajusta el centrado con precisión */
+        right: 15px; 
+        top: 50%;   
+        font-size: 24px; 
+        z-index: 11; 
+        transform: translateY(-50%); 
         transition: transform 0.3s ease, color 0.3s ease;
     }
 }
 
 @media screen and (max-width: 768px) {
     .menu-principal {
-        display: none; /* Ocultamos el menú principal */
+        display: none;
     }
 
     .menu-hamburguesa {
         display: block;
         position: absolute;
-        right: 15px; /* Asegura que no se sobreponga con otros elementos */
-        top: 50%;   /* Ajusta la altura para evitar colisiones */
-        font-size: 24px; /* Tamaño adecuado para pantallas pequeñas */
-        z-index: 11; /* Asegura que esté sobre la barra lateral */
-        transform: translateY(-50%); /* Ajusta el centrado con precisión */
+        right: 15px; 
+        top: 50%;   
+        font-size: 24px; 
+        z-index: 11; 
+        transform: translateY(-50%);
         transition: transform 0.3s ease, color 0.3s ease;
     }
 }
 
-/* Pantallas grandes */
 @media screen and (min-width: 769px) {
     .menu-principal {
-        display: flex; /* Menú principal visible */
+        display: flex; 
     }
 
     .sidebar {
-        display: none !important; /* Aseguramos que la barra lateral esté oculta */
+        display: none !important; 
     }
 }
